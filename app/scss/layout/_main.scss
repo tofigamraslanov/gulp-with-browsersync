@@ -1,0 +1,32 @@
+main {
+  padding: 2rem;
+  background-color: $white;
+  border-radius: 1.5rem;
+  max-width: 120rem;
+  margin: 0 auto;
+
+  @media #{$mq-1000-up} {
+    display: flex;
+    padding: 3.4rem;
+  }
+}
+
+.content {
+  @media #{$mq-1000-up} {
+    flex: 3;
+  }
+}
+
+aside {
+  h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    @media #{$mq-1000-up} {
+      margin-bottom: 2rem;
+    }
+  }
+  @media #{$mq-1000-up} {
+    flex: 1;
+  }
+}
